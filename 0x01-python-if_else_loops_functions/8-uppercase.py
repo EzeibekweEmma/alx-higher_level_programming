@@ -1,13 +1,10 @@
 #!/usr/bin/python3
 # function that prints a string in uppercase
-def islower(c):
-    value = ord(c)
-    return value >= 97 and value <= 122
-
-
 def uppercase(str):
-    for letter in str:
-        print("{:c}".format(
-            ord(letter) - 32 if islower(letter) else ord(letter)), end='')
-
+    for i in range(len(str)):
+        if ord(str[i]) >= 97 and ord(str[i]) < 123:
+            letter = 32
+        else:
+            letter = 0
+        print("{:c}".format(ord(str[i]) - letter), end='')
     print()
