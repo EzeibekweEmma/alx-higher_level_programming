@@ -1,3 +1,3 @@
 # Alx Python Class
 
-![Python Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMDlNVUzZC7RSwhUbxKsL6Pys4UI9aPUj5wQ&usqp=CAU)
+![Python Logo](./python.jpeg)
