@@ -1,12 +1,9 @@
-#!/usr/bin/python3.8
+#!/usr/bin/python3
+from hidden_4 import *
 
-def hidden():
-    import hidden_4
+if __name__ == '__main__':
+    for el in dir():
+        if el[0] == el[1] == '_':
+            continue
 
-    methods = dir(hidden_4)
-    for method in methods:
-        if method[0].isalnum():
-            print("{}".format(method))
-
-if __name__ == "__main__":
-    hidden()
+        print(el)
