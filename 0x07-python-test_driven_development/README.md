@@ -1,10 +1,14 @@
 # Test-driven development in Python
 
+![Background Context](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/246/giphy-4.gif)
+
 ## Resources:books:
 Read or watch:
 * [doctest — Test interactive Python examples](https://intranet.hbtn.io/rltoken/alaT1C9CeCbkRKh-yjMRww)
 * [doctest – Testing through documentation](https://intranet.hbtn.io/rltoken/cpEYbv_Z55QrSVRiuG5tUw)
 * [Unit Tests in Python](https://intranet.hbtn.io/rltoken/CELicn3K8hODQsWZak_h0g)
+* [Unittest module](https://intranet.alxswe.com/rltoken/1v-d9Ol13JabJq8UI6MIPg)
+* [Interactive and Non-interactive tests](https://intranet.alxswe.com/rltoken/lB65hNMXBziXy4A0YLIOog}
 
 ---
 ## Learning Objectives:bulb:
