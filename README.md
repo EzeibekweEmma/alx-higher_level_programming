@@ -6,5 +6,6 @@ Python is a high-level, interpreted, general-purpose programming language. It wa
 * scientific computing,
 * data analysis,
 * artificial intelligence,
+
 and also used for a wide range of applications, from web development to scientific computing and data analysis.
 It is known for its simplicity, versatility, and large community of developers.
