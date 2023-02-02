@@ -32,10 +32,10 @@ def matrix_divided(matrix, div):
             raise TypeError(errors['matrix'])
 
     if type(div) not in [int, float]:
-            raise TypeError(errors['div'])
+        raise TypeError(errors['div'])
 
     if div == 0:
-            raise ZeroDivisionError(errors['zero'])
+        raise ZeroDivisionError(errors['zero'])
 
     new = map(lambda x: list(map(lambda y: round(y / div, 2), x)), matrix)
     return list(new)
