@@ -6,9 +6,10 @@ This module has one function that adds up 2 integers
 
 """
 
+
 def add_integer(a, b=98):
     '''
-    Function that add to numbers 
+    Function that add to numbers
     '''
 
     if type(a) != int and type(a) != float:

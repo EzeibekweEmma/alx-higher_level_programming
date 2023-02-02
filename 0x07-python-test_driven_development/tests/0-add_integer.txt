@@ -38,3 +38,20 @@ a must be an integer
 """ test 8 (-1 + -1) = -2 """
 >>> add(-1, -1)
 -2
+
+""" test 9 (1 + -2) = 0 """
+>>> add(1, -2)
+-1
+
+""" test 10 """
+>>> add(4, float("inf"))
+Traceback (most recent call last):
+...
+OverflowError: cannot convert float infinity to integer
+
+""" test 11 """
+>>> add(1, float('nan'))
+Traceback (most recent call last):
+...
+ValueError: cannot convert float NaN to integer
+
