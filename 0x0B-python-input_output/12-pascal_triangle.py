@@ -1,24 +1,18 @@
 #!/usr/bin/python3
-'''Module for task 12'''
+'''Module for task 14'''
 
 
-class Student:
-    '''Defines a student'''
+def pascal_triangle(n):
+    '''Calculate n triangle pascal'''
+    a = []
+    for i in range(n):
+        a.append([])
+        a[i].append(1)
 
-    def __init__(self, first_name, last_name, age):
-        '''Constructor'''
-        self.first_name = first_name
-        self.last_name = last_name
-        self.age = age
+        for j in range(1, i):
+            a[i].append(a[i - 1][j - 1] + a[i - 1][j])
 
-    def to_json(self, attrs=None):
-        '''JSON representation of an instance'''
-        if attrs is None:
-            return self.__dict__
+        if(len(a) > 1):
+            a[i].append(1)
 
-        attrs_dict = {}
-        for att in self.__dict__:
-            if att in attrs:
-                attrs_dict[att] = self.__dict__[att]
-
-        return attrs_dict
+    return a
