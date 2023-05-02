@@ -16,3 +16,7 @@ if __name__ == '__main__':
     response = s.get(url, auth=(username, token)).json()
     try:
         print(response['id'])
+    except ValueError:
+        print('None')
+    except Exception as e:
+        print('None')
