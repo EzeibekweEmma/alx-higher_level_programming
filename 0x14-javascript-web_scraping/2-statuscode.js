@@ -2,8 +2,12 @@
 // script that display the status code of a GET request.
 
 const request = require('request');
+const url = process.argv[2];
 
-request(process.argv[2], { json: true }, (err, res, body) => {
-  if (err) { return console.log(err); }
-  console.log('code: ' + res.statusCode);
+request.get(url, (error, response) => {
+  if (error) {
+    console.error('Error:', error.message);
+  } else {
+    console.log('Status code:', response.statusCode);
+  }
 });
