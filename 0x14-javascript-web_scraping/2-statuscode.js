@@ -3,7 +3,7 @@
 const request = require('request');
 const url = process.argv[2];
 
-request(
+request.get(
   {
     url: url
   },
